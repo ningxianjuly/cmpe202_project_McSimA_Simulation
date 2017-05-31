@@ -1,22 +1,22 @@
   -- mdfile is not specified or can not be opened. default parameters will be used.
 in case when the program exits with an error, please run the following command
-kill -9 9419 
-  -- {32774} cmd: /home/chaoyu/pin-2.14-67254-gcc.4.4.7-linux/intel64/bin/pinbin -t /home/chaoyu/McSimA+/Pthread/mypthreadtool -port 32774 -skip_first 0 -- uname -a 
-  -- [           0]: {32774} thread 0 is created
+kill -9 9272 
+  -- {60077} cmd: /home/chaoyu/pin-2.14-67254-gcc.4.4.7-linux/intel64/bin/pinbin -t /home/chaoyu/McSimA+/Pthread/mypthreadtool -port 60077 -skip_first 0 -- uname -a 
+  -- [           0]: {60077} thread 0 is created
 Linux cmpe 3.13.0-32-generic #57~precise1-Ubuntu SMP Tue Jul 15 03:51:20 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
-  -- event became empty at cycle = 17923210
-  -- th[  0] fetched 155420 instrs
-  -- total number of fetched instructions : 155420 (IPC =   0.086)
-  -- HTH [0] : branch (miss, access) = (4394, 35016) = 12.5485%,  #_nacks = 0, #_x87_ops = 217, #_call_ops = 813, latest_ip = 0x7f99b736fa29, tot_mem_wr_time = 1288600, tot_mem_rd_time = 4019300
-  -- L2$ [000] : RD (miss, access)=( 0000000899, 0000000943)= 095.33%
-  -- L2$ [000] : EV_from_L1 (miss, access)=( 0000000000, 0000000687)= 0.00%,  L2$ (i,e,s,m,tr) ratio=(0780, 0219, 0000, 0000, 0000), num_dirty_lines (pid:#) = 
-  -- Dir [000] : (i->tr, e->tr, s->tr, m->tr, m->i, tr->i, tr->e, tr->s, tr->m) = (475, 0, 0, 0, 0, 0, 475, 0, 0)
-  -- Dir [000] : (nack, bypass, evict, invalidate, from_mc, dir_acc, dir_$_miss, dir_$_retry, dir_$_evict) = (0, 0, 0, 0, 475, 950, 0, 0, 0), 475, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-  -- Dir [001] : (i->tr, e->tr, s->tr, m->tr, m->i, tr->i, tr->e, tr->s, tr->m) = (424, 0, 0, 0, 0, 0, 424, 0, 0)
-  -- Dir [001] : (nack, bypass, evict, invalidate, from_mc, dir_acc, dir_$_miss, dir_$_retry, dir_$_evict) = (0, 0, 0, 0, 424, 848, 0, 0, 0), 424, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-  -- MC  [000] : (rd, wr, act, pre) = (000000475, 000000000, 000000475, 000000475), # of WR->RD switch = 0, #_refresh = 0, 36 pages acc, AB (rd, wr, act) = (000000000, 000000000, 000000000), avg_tick_in_mc= 100
+  -- event became empty at cycle = 17971610
+  -- th[  0] fetched 155469 instrs
+  -- total number of fetched instructions : 155469 (IPC =   0.086)
+  -- HTH [0] : branch (miss, access) = (4397, 35018) = 12.5564%,  #_nacks = 0, #_x87_ops = 218, #_call_ops = 813, latest_ip = 0x7f2900645a29, tot_mem_wr_time = 1288700, tot_mem_rd_time = 4019300
+  -- L2$ [000] : RD (miss, access)=( 0000000903, 0000000947)= 095.35%
+  -- L2$ [000] : EV_from_L1 (miss, access)=( 0000000000, 0000000691)= 0.00%,  L2$ (i,e,s,m,tr) ratio=(0779, 0220, 0000, 0000, 0000), num_dirty_lines (pid:#) = 
+  -- Dir [000] : (i->tr, e->tr, s->tr, m->tr, m->i, tr->i, tr->e, tr->s, tr->m) = (390, 0, 0, 0, 0, 0, 390, 0, 0)
+  -- Dir [000] : (nack, bypass, evict, invalidate, from_mc, dir_acc, dir_$_miss, dir_$_retry, dir_$_evict) = (0, 0, 0, 0, 390, 780, 0, 0, 0), 390, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+  -- Dir [001] : (i->tr, e->tr, s->tr, m->tr, m->i, tr->i, tr->e, tr->s, tr->m) = (513, 0, 0, 0, 0, 0, 513, 0, 0)
+  -- Dir [001] : (nack, bypass, evict, invalidate, from_mc, dir_acc, dir_$_miss, dir_$_retry, dir_$_evict) = (0, 0, 0, 0, 513, 1026, 0, 0, 0), 513, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+  -- MC  [000] : (rd, wr, act, pre) = (000000390, 000000000, 000000390, 000000390), # of WR->RD switch = 0, #_refresh = 0, 35 pages acc, AB (rd, wr, act) = (000000000, 000000000, 000000000), avg_tick_in_mc= 100
                : local pred (miss,hit)=( 0, 0), global pred (miss,hit)=( 0, 0)
-  -- MC  [001] : (rd, wr, act, pre) = (000000424, 000000000, 000000424, 000000424), # of WR->RD switch = 0, #_refresh = 0, 34 pages acc, AB (rd, wr, act) = (000000000, 000000000, 000000000), avg_tick_in_mc= 100
+  -- MC  [001] : (rd, wr, act, pre) = (000000513, 000000000, 000000513, 000000513), # of WR->RD switch = 0, #_refresh = 0, 35 pages acc, AB (rd, wr, act) = (000000000, 000000000, 000000000), avg_tick_in_mc= 100
                : local pred (miss,hit)=( 0, 0), global pred (miss,hit)=( 0, 0)
-  -- NoC [000] : (req, crq, rep) = (424, 0, 424), num_data_transfers = 424
-  -- L1$I[000] : RD (miss, access)=( 0000000943, 0000019042)= 004.95%, PRE (hit, reqs)=( 0, 0 )
+  -- NoC [000] : (req, crq, rep) = (513, 0, 513), num_data_transfers = 513
+  -- L1$I[000] : RD (miss, access)=( 0000000947, 0000019050)= 004.97%, PRE (hit, reqs)=( 0, 0 )
